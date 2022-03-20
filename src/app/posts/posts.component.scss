@@ -1,0 +1,84 @@
+
+  .card svg.material-icons path {
+    fill: #888;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .card {
+    all: unset;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    height: 100px;
+    width: 600px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .card.card-small {
+    height: 16px;
+    width: 168px;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+
+  .card-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 27px rgba(0, 0, 0, 0.35);
+    -webkit-transform: rotate(5deg);
+  }
+
+  .card-container .card:not(.highlight-card):hover .material-icons path {
+    fill: rgb(150, 6, 6);
+  }
+
+  .card.highlight-card {
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: auto;
+    min-width: 30%;
+    position: relative;
+  }
+
+  .card.card.highlight-card span {
+    margin-left: 60px;
+  }
+
+  dt,
+  dt:visited,
+  dt:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+
+ dt:hover {
+    color: #520404;
+  }
+
+p{   font-family: 'Italianno', cursive;}
+
+.bg-purple {
+   background:
+        linear-gradient(gold, transparent),
+        linear-gradient(to top left, black, transparent),
+        linear-gradient(to top right, green, transparent);
+    background-blend-mode: screen;}

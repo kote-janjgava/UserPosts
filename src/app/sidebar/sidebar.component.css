@@ -1,0 +1,28 @@
+#menu-outer {
+  height: 84px;
+}
+
+.table {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
+ul#horizontal-list li {
+  display: inline;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+/*# sourceMappingURL=sidebar.component.css.map */

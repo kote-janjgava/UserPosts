@@ -1,0 +1,9 @@
+<div class="card-container">
+  <dt *ngFor="let post of posts$">
+    <a class="card bg-purple" rel="noopener">
+      <h6>{{ post.title }}</h6>
+
+      <p>{{ post.body }}</p>
+    </a>
+  </dt>
+</div>

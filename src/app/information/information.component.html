@@ -1,0 +1,22 @@
+<div class="card-container">
+  <a class="card" rel="noopener">
+    <h4>{{ user$.name }}:</h4>
+    <ul>
+      <li><strong>Username:</strong> {{ user$.username }}</li>
+      <li><strong>E-mail:</strong> {{ user$.email }}</li>
+      <li>
+        <strong>Address:</strong>
+        {{ user$.address.street }}-{{ user$.address.suite }}-
+        {{ user$.address.city }}-{{ user$.address.zipcode }}
+      </li>
+
+      <li><strong>Phone:</strong> {{ user$.phone }}</li>
+      <li><strong>Website:</strong> {{ user$.website }}</li>
+      <li><strong>Company:</strong> Name: {{ user$.company.name }}</li>
+      <li>
+        <strong>CatchPhrase:</strong> Name: {{ user$.company.catchPhrase }}
+      </li>
+      <li><strong>BS:</strong> Name: {{ user$.company.bs }}</li>
+    </ul>
+  </a>
+</div>
