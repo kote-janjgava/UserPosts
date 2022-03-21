@@ -174,25 +174,15 @@
       margin-left: 72px;
     }
 
-    svg#rocket-smoke {
-      right: 120px;
-      transform: rotate(-5deg);
-    }
   }
 
-  @media screen and (max-width: 575px) {
-    svg#rocket-smoke {
-      display: none;
-      visibility: hidden;
-    }
-  }
 .logo {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
 .logo:hover {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
     animation: rotateAnimation 5s linear ;
 }

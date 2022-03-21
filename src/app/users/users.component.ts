@@ -8,11 +8,11 @@ import { Observable } from 'rxjs';
   styleUrls: ['./users.component.scss'],
 })
 export class UsersComponent implements OnInit {
-  // აბრუნებს Data-ს Api-დან
+  // returns Data from Api
   users$: any = [];
 
   constructor(private data: MyServiceService) {}
-
+  // Any code that is executed here will be executed when this component is used
   ngOnInit() {
     this.data.getUsers().subscribe((data: any) => (this.users$ = data));
   }

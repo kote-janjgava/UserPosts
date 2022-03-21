@@ -13,6 +13,7 @@ export class PostsComponent implements OnInit {
 
   constructor(private data: MyServiceService) {}
 
+  // Any code that is executed here will be executed when this component is used
   ngOnInit() {
     this.data.getPosts().subscribe((data) => (this.posts$ = data));
   }
