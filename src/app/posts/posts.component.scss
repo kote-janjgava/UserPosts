@@ -78,9 +78,9 @@ p{   font-family: 'Italianno', cursive;}
 
 .bg-purple {
    background:
-        linear-gradient(gold, transparent),
-        linear-gradient(to top left, black, transparent),
-        linear-gradient(to top right, green, transparent);
+        linear-gradient(#313552, transparent),
+        linear-gradient(to top left, #B8405E, transparent),
+        linear-gradient(to top right, #2EB086, transparent);
     background-blend-mode: screen;}
  @media screen and (max-width: 767px) {
     .card-container > *:not(.circle-link),

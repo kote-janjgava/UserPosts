@@ -22,8 +22,8 @@ svg.material-icons {
   .card {
     all: unset;
     border-radius: 4px;
-    border: 1px solid #eee;
-background: linear-gradient(0.25turn, blue , gold);   height: 40px;
+    border: 1px solid #DB6400;
+    background: linear-gradient(0.25turn, #5EAAA8 , #A3D2CA);   height: 40px;
     width: 220px;
     margin: 0 8px 16px;
     padding: 16px;
@@ -51,7 +51,7 @@ background: linear-gradient(0.25turn, blue , gold);   height: 40px;
   .card-container .card:not(.highlight-card):hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-    background: linear-gradient(0.25turn, gold , blue);
+    background: linear-gradient(0.25turn,#A3D2CA , #5EAAA8);
   }
 
   .card-container .card:not(.highlight-card):hover .material-icons path {
@@ -77,12 +77,12 @@ background: linear-gradient(0.25turn, blue , gold);   height: 40px;
   a,
   a:visited,
   a:hover {
-    color:black;
+    color:#21243D;
     text-decoration: none;
   }
 
   a:hover {
-    color: white;
+    color: #DB6400;
     font-family: 'Permanent Marker', cursive;
   }
   .croco{
