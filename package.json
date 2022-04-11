@@ -1,6 +1,7 @@
 {
   "name": "crocobet",
   "version": "0.0.0",
+  "homepage": "https://kote-janjgava.github.io/kote-taskapp.github.io/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
